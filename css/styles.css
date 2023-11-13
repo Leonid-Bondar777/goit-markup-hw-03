@@ -1,0 +1,257 @@
+
+body 
+{
+    background-color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    color:#434455;
+    font-size: 14px;
+    line-height: 1.4;
+
+}
+
+/* decor none */
+
+.list-text-decoration,
+.menu,
+.menu-contacts,
+.our-portfolio-link
+ {
+    list-style-type: none;
+        }
+.menu-contacts-link, 
+.menu-link {
+    text-decoration: none;
+}
+button {cursor: pointer;}
+
+.address-link{
+    font-style: normal
+}
+
+/* logo */
+
+.logo
+{ 
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: none;
+    
+}
+.logo-accent{
+    color: #2e2f42;
+    
+
+    }
+    .logo-accen-footer {
+
+            color: #f4f4fd;
+            font-family: "Raleway", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-align: left;
+
+        }
+
+    
+/* menu  */
+
+.menu-list {
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
+}
+
+.menu-link {
+    color: rgba(46, 47, 66, 1);;
+}
+
+.menu-link:focus,
+.menu-link:hover {
+        color: #404BBF;
+        }
+
+                /* menu  contacts */
+
+.menu-contacts {
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.menu-contacts-link {
+color: rgba(67, 68, 85, 1);
+}
+.menu-contacts-link:hover,
+.menu-contacts-link:focus {
+        
+        color: #404BBF;
+   
+}
+
+/* order */
+
+.order-service {
+    background: rgba(46, 47, 66, 1);
+    
+           
+ }
+.order-service-title {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* order button */
+
+.order-service-button {
+        background-color: #4D5AE5;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: left;
+        color: #ffffff;
+        
+    }
+
+.order-service-button:hover,
+.order-service-button:focus {
+    
+    background-color: #404BBF;
+}
+
+/*  Section-Advantages */
+
+.advantages-title {
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: #2E2F42;
+}
+
+.advantages-paragraph {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+/*  Section-Our-Team  */
+
+.our-team{
+background-color: #F4F4FD;
+text-align: center;
+    text-transform: capitalize;
+}
+
+.our-team-title{
+
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    
+}
+
+.our-team-name{
+    
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.our-team-profession{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+.our-team-link
+{
+    background-color: #FFFFFF
+    
+}
+
+/*  Section-Our-Portfolio  */
+
+
+.our-portfolio-title
+{
+
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+        text-transform: capitalize;
+}
+
+.our-portfolio-service{
+    
+font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.our-portfolio-name{
+
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        
+}
+
+/*.our-portfolio-decoration {}*/
+
+/*  footer  */
+
+.footer-content{
+background: rgba(46, 47, 66, 1);
+color: #f4f4fd
+}
+
+.footer-advice{
+font-family: "Raleway", sans-serif;
+        color: #f4f4fd;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+    
+}
