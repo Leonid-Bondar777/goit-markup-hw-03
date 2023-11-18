@@ -88,20 +88,13 @@ body
 }
 
 
-.menu-list 
-{
-    margin: 0;
-    gap: 40px;
-    display: inline-flex;
-    align-items: flex-start;
 
-}
 
 .menu-contacts 
 {
     display: flex;
     gap: 40px;
-
+    padding: 24px 0 24px
 }
 
 .pege-header 
@@ -256,6 +249,14 @@ body
 
 /* menu  */
 
+.menu-list 
+{
+    margin: 0;
+    gap: 40px;
+    display: inline-flex;
+    align-items: flex-start;
+
+}
 .menu-list {
 
     font-size: 16px;
