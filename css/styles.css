@@ -3,17 +3,18 @@
 .list-text-decoration,
 .menu,
 .menu-contacts,
-.our-portfolio-link
- {
+.our-portfolio-link 
+{
     list-style-type: none;
-        }
-.menu-contacts-link, 
+}
+
+.menu-contacts-link,
 .menu-link {
     text-decoration: none;
 }
 
-
-.address-link{
+.address-link 
+{
     font-style: normal
 }
 
@@ -23,90 +24,109 @@ h3,
 h4,
 h5,
 h6,
-p { 
+p 
+{
     margin-top: 0;
     margin-bottom: 0;
-    }
+}
 
-img {
+img 
+{
     display: block;
     max-width: 100%;
 }
-    ul,
-    ol,
-    li {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding: 0;
-    }
-button{
+
+ul,
+ol,
+li 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+button 
+{
     cursor: pointer;
 }
 
-        /* container stail*/ 
 
-    .container {
-            width: 1158px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: 15px;
-            padding-right: 15px;
-            
-            
+/* container stail*/
 
-    }
-    .header-container {
-            display: flex;
-            align-items: center;
-            width: 1158px;
-            height: 72px;
-            flex-shrink: 0;
-    }
+body 
+{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
 
-.pege-nav-navigetion {
-        display: flex;
-        align-items: center;
-        margin-right: auto;
-   
-        
-    
+
+}
+
+.container 
+{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-container 
+{
+    display: flex;
+    align-items: center;
+    width: 1158px;
+    height: 72px;
+    flex-shrink: 0;
 }
 
 
-.menu-list {
+.pege-nav-navigetion 
+{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
+}
+
+
+.menu-list 
+{
     margin: 0;
     gap: 40px;
     display: inline-flex;
     align-items: flex-start;
-    
-        
+
 }
 
-.menu-contacts {
+.menu-contacts 
+{
     display: flex;
-        gap: 40px;
-        
-}
-
-.pege-header {
-     border-bottom: 1px solid #e7e9fc;
-     align-items: center;
+    gap: 40px;
 
 }
-.menu-contacts-link{ 
-         
-        display: inline-block;
-            padding-top: 24px;
-            padding-bottom: 24px;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: 0.32px;
+
+.pege-header 
+{
+    border-bottom: 1px solid #e7e9fc;
+    align-items: center;
+
+}
+
+.menu-contacts-link 
+{
+
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 
 
-.visually-hidden {
+.visually-hidden 
+{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -122,89 +142,79 @@ button{
 
 
 
-.order-service {
+.order-service 
+{
 
-        padding-top: 188px;
-        padding-bottom: 188px;
-        
-           
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 }
 
-.order-service-title {
+.order-service-title 
+{
 
     max-width: 496px;
-        margin: auto;
-        margin-bottom: 48px;
-      
+    margin: auto;
+    margin-bottom: 48px;
+
 }
 
 
-.order-service-button {
+.order-service-button 
+{
     display: block;
-        padding: 16px 32px;
-        border-radius: 4px;
-        margin-left: auto;
-        margin-right: auto;
-        border: none;
-        
-}
-
-
-
-.advantages {
-        padding-top: 120px;
-        padding-bottom: 120px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
 
 }
 
-.list-text-decoration {
+
+.advantages 
+{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.list-text-decoration 
+{
 
     display: flex;
     gap: 24px;
-       
+
 }
 
 
-.advantages-link {
-display: flex;
+.advantages-link
+ {
+    display: flex;
     width: 264px;
     flex-direction: column;
-    
-   
 
 }
 
-.advantages-title {
+.advantages-title 
+{
 
     margin-bottom: 8px;
 }
 
 
 
-
-
-
-
-body 
-{
-    background-color:#ffffff;
-    font-family: 'Roboto', sans-serif;
-    color:#434455;
-    font-size: 14px;
-    line-height: 1.4;
+.footer-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
 
-
-
-
-
-
-
-.our-portfolio-link {
+.our-portfolio-link 
+{
     display: flex;
-    
+
 
 }
 
@@ -212,8 +222,7 @@ body
 
 /* logo */
 
-.logo
-{ 
+.logo {
     margin-right: 76px;
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -225,74 +234,80 @@ body
     text-transform: uppercase;
     text-align: left;
     text-decoration: none;
-    
+
 }
-.logo-accent{
+
+.logo-accent {
     color: #2e2f42;
-    
 
-    }
-    .logo-accen-footer {
 
-            color: #f4f4fd;
-            font-family: "Raleway", sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-align: left;
+}
 
-        }
+.logo-accen-footer {
 
-    
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+
 /* menu  */
 
 .menu-list {
 
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
 
 .menu-link {
-    color: rgba(46, 47, 66, 1);;
+    color: rgba(46, 47, 66, 1);
+    ;
 }
 
 .menu-link:focus,
 .menu-link:hover {
-        color: #404BBF;
-        }
+    color: #404BBF;
+}
 
-                /* menu  contacts */
+/* menu  contacts */
 
 .menu-contacts {
-    
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: left;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
+
 .menu-contacts-link {
-color: rgba(67, 68, 85, 1);
+    color: rgba(67, 68, 85, 1);
 
 }
+
 .menu-contacts-link:hover,
 .menu-contacts-link:focus {
-        
-        color: #404BBF;
-   
+
+    color: #404BBF;
+
 }
 
 /* order */
 
 .order-service {
     background: rgba(46, 47, 66, 1);
-    
-           
- }
+
+
+}
+
 .order-service-title {
     color: #ffffff;
     font-size: 56px;
@@ -300,26 +315,27 @@ color: rgba(67, 68, 85, 1);
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    
+
 }
 
 /* order button */
 
 .order-service-button {
-        background-color: #4D5AE5;
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        text-align: left;
-        color: #ffffff;
-        
-    }
+    background-color: #4D5AE5;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #ffffff;
+
+}
 
 .order-service-button:hover,
-.order-service-button:focus {
-    
+.order-service-button:focus 
+{
+
     background-color: #404BBF;
 }
 
@@ -331,7 +347,7 @@ color: rgba(67, 68, 85, 1);
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+
     color: #2E2F42;
 }
 
@@ -341,29 +357,29 @@ color: rgba(67, 68, 85, 1);
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
 }
 
 /*  Section-Our-Team  */
 
-.our-team{
-background-color: #F4F4FD;
-text-align: center;
+.our-team {
+    background-color: #F4F4FD;
+    text-align: center;
     text-transform: capitalize;
 }
 
-.our-team-title{
+.our-team-title {
 
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    
+
 }
 
-.our-team-name{
-    
+.our-team-name {
+
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -372,26 +388,24 @@ text-align: center;
     text-align: center;
     text-transform: capitalize;
 }
-.our-team-profession{
+
+.our-team-profession {
 
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
 }
 
-.our-team-link
-{
+.our-team-link {
     background-color: #FFFFFF
-    
 }
 
 /*  Section-Our-Portfolio  */
 
 
-.our-portfolio-title
-{
+.our-portfolio-title {
 
     color: #2E2F42;
     font-size: 36px;
@@ -399,45 +413,43 @@ text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-        text-transform: capitalize;
+    text-transform: capitalize;
 }
 
-.our-portfolio-service{
-    
-font-size: 16px;
+.our-portfolio-service {
+
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 
-.our-portfolio-name{
+.our-portfolio-name {
 
-        color: #2E2F42;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
 }
-
-/*.our-portfolio-decoration {}*/
 
 /*  footer  */
 
-.footer-content{
-background: rgba(46, 47, 66, 1);
-color: #f4f4fd
+.footer-content 
+{
+    background: rgba(46, 47, 66, 1);
+    color: #f4f4fd
 }
 
-.footer-advice{
-font-family: "Raleway", sans-serif;
-        color: #f4f4fd;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: left;
-    
+.footer-advice {
+    font-family: "Raleway", sans-serif;
+    color: #f4f4fd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+
 }
-/* додав з репозіторій
