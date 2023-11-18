@@ -2,15 +2,15 @@
 /* decor none*/
 
 .list-text-decoration,
-.menu,
-.menu-contacts,
+.manu,
+.manu-contacts,
 .our-portfolio-link 
 {
     list-style-type: none;
 }
 
-.menu-contacts-link,
-.menu-link 
+.manu-contacts-link,
+.manu-link 
 {
     text-decoration: none;
 }
@@ -146,15 +146,15 @@ body
 }
 
 
-/* menu  */
+/* manu  */
 
 
-.menu 
+.manu 
 {
     padding: 24px 0 24px
 }
 
-.menu-list 
+.manu-list 
 {
     margin: 0;
     gap: 40px;
@@ -166,21 +166,21 @@ body
     letter-spacing: 0.02em;
 }
 
-.menu-link 
+.manu-link 
 {
     color: rgba(46, 47, 66, 1);
     padding: 24px 0;
 }
 
-.menu-link:focus,
-.menu-link:hover 
+.manu-link:focus,
+.manu-link:hover 
 {
     color: #404BBF;
 }
 
 /* manu  contacts */
 
-.menu-contacts 
+.manu-contacts 
 {
 
     font-size: 16px;
@@ -192,13 +192,13 @@ body
     gap: 40px;
 }
 
-.menu-contacts-title 
+.manu-contacts-title 
 {
     padding: 24px 0 24px
 }
 
 
-.menu-contacts-link 
+.manu-contacts-link 
 {
     color: rgba(67, 68, 85, 1);
     display: inline-block;
@@ -210,8 +210,8 @@ body
 
 }
 
-.menu-contacts-link:hover,
-.menu-contacts-link:focus 
+.manu-contacts-link:hover,
+.manu-contacts-link:focus 
 {
     color: #404BBF;
 }
