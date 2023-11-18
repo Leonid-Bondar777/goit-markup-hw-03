@@ -170,7 +170,12 @@ body
     border: none;
 
 }
+.section
+{
+    padding-top: 120px;
+    padding-bottom: 120px;
 
+}
 
 .advantages 
 {
@@ -235,6 +240,9 @@ body
     text-align: left;
     text-decoration: none;
 
+}
+.footer-logo {
+    margin-bottom: 16px;
 }
 
 .logo-accent {
@@ -369,7 +377,7 @@ body
 }
 
 .our-team-title {
-
+margin-bottom: 72px;
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -377,9 +385,12 @@ body
     letter-spacing: 0.02em;
 
 }
-
+.our-name {
+    padding: 32px 0 32px
+}
 .our-team-name {
 
+    margin-bottom: 8px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -391,15 +402,17 @@ body
 
 .our-team-profession {
 
-    font-size: 16px;
-    font-weight: 400;
+    text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
 }
 
 .our-team-link {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    width: calc((100% - 74) / 4);
+    border-radius: 0px 0px 4px 4px;
+   
 }
 
 /*  Section-Our-Portfolio  */
@@ -414,8 +427,15 @@ body
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
+.our-portfolio-link {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
 .our-portfolio-service {
 
     font-size: 16px;
@@ -423,15 +443,23 @@ body
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
+.our-portfolio-decoration-name {
+    padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+}
 .our-portfolio-name {
-
+    margin-bottom: 8px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+
+}
+.our-portfolio-decoration{
+    width: calc((100% - 48px) / 3);
+        border-top: none;
 
 }
 
@@ -440,16 +468,16 @@ body
 .footer-content 
 {
     background: rgba(46, 47, 66, 1);
-    color: #f4f4fd
+    
 }
 
-.footer-advice {
-    font-family: "Raleway", sans-serif;
+.footer-advice 
+{
     color: #f4f4fd;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-
-}
+    max-width: 264px;
+    }
