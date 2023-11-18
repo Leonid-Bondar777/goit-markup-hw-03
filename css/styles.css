@@ -160,16 +160,7 @@ body
 }
 
 
-.order-service-button 
-{
-    display: block;
-    padding: 16px 32px;
-    border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
 
-}
 .section
 {
     padding-top: 120px;
@@ -315,7 +306,16 @@ body
 
 
 }
-
+.order-service-button 
+{
+    display: block;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    min-width: 169px
+}
 .order-service-title {
     color: #ffffff;
     font-size: 56px;
