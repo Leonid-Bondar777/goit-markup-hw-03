@@ -268,7 +268,7 @@ body
 
 .menu-link {
     color: rgba(46, 47, 66, 1);
-    ;
+    padding: 24px 0;
 }
 
 .menu-link:focus,
